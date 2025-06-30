@@ -1,5 +1,11 @@
 @import "tailwindcss";
 
-body{
+body {
   background: #1c1c1c;
+}
+
+@layer base {
+  .navElements {
+    @apply bg-linear-to-b/srgb cursor-pointer duration-200 rounded-lg px-4 py-0.5 hover:bg-linear-to-r/srgb hover:from-[#87ff83] hover:to-[#b138a7] h-14 text-2xl flex justify-center items-center text-black font-semibold;
+  }
 }
