@@ -11,6 +11,9 @@ export default function Connections() {
             Spotify
           </a>
         </li>
+        <li className="navElements bg-linear-65 from-[#ff8800] to-[#ff3300]">
+          <a href="https://soundcloud.com/grogfrog">Soundcloud</a>
+        </li>
         <li className="navElements bg-linear-65 from-[#0A66C2] to-white">
           <a href="https://www.linkedin.com/in/luna-tattersall-87a908369/">
             LinkedIn
