@@ -1,3 +1,3 @@
 export default function Friends() {
-  return <>this is my friends page :3</>;
+  return <>this is my friends page</>;
 }
