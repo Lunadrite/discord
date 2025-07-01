@@ -5,7 +5,7 @@ export default function Header({ path }: { path: string }) {
     <header className="bg-[#2c2c2c] h-[73px] text-white flex justify-between items-center px-8 md:px-16 lg:px-5.5 rounded-lg">
       <div className="Logo-Name text-[25px] font-bold flex gap-2 items-center">
         <img src={Logo} width={55} />
-        <p className="mb-1">Luna's Links</p>
+        <p className="mb-1">Luna's Designs</p>
       </div>
 
       <div className="flex justify-end items-start" />

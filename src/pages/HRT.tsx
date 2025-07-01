@@ -1,3 +1,7 @@
 export default function HRT() {
-  return <>this is my hrt page</>;
+  return (
+    <>
+      <p>meow</p>
+    </>
+  );
 }

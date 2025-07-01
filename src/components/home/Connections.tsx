@@ -3,24 +3,45 @@ export default function Connections() {
     <div className="mt-10">
       <div className="flex justify-end items-start" />
       <ul className="flex gap-[20px] flex-col list-none">
-        <li className="navElements bg-linear-65 from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] ">
-          <a href="https://www.instagram.com/lunalovezyouxx/">Instagram</a>
+        <li>
+          <a
+            href="https://www.instagram.com/lunalovezyouxx/"
+            className="navElements bg-linear-65 from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white"
+          >
+            Instagram
+          </a>
         </li>
-        <li className="navElements bg-linear-65 from-[#1db954] to-[#191414]">
-          <a href="https://open.spotify.com/user/31xnzuknehiqb467bf72cka3c7by">
+        <li>
+          <a
+            href="https://open.spotify.com/user/31xnzuknehiqb467bf72cka3c7by"
+            className="navElements bg-linear-65 from-[#1db954] to-[#191414] text-white"
+          >
             Spotify
           </a>
         </li>
-        <li className="navElements bg-linear-65 from-[#ff8800] to-[#ff3300]">
-          <a href="https://soundcloud.com/grogfrog">Soundcloud</a>
+        <li>
+          <a
+            href="https://soundcloud.com/grogfrog"
+            className="navElements bg-linear-65 from-[#ff8800] to-[#ff3300]"
+          >
+            Soundcloud
+          </a>
         </li>
-        <li className="navElements bg-linear-65 from-[#0A66C2] to-white">
-          <a href="https://www.linkedin.com/in/luna-tattersall-87a908369/">
+        <li>
+          <a
+            href="https://www.linkedin.com/in/luna-tattersall-87a908369/"
+            className="navElements bg-linear-65 from-[#0A66C2] to-white text-white"
+          >
             LinkedIn
           </a>
         </li>
-        <button className="navElements bg-linear-65 from-[#00adee] to-[#000000]">
-          <a href="https://steamcommunity.com/id/LunaWovesYou/">Steam</a>
+        <button>
+          <a
+            href="https://steamcommunity.com/id/LunaWovesYou/"
+            className="navElements bg-linear-65 from-[#00adee] to-[#000000] text-white"
+          >
+            Steam
+          </a>
         </button>
       </ul>
     </div>

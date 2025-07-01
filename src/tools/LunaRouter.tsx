@@ -15,7 +15,7 @@ export default function LunaRouter() {
   };
 
   const PageRouter = () => {
-    const currentPath = location.pathname;
+    const currentPath = window.location.pathname;
 
     if (currentPath in paths) return paths[currentPath as keyof typeof paths];
 
