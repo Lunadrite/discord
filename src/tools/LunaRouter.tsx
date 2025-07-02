@@ -5,7 +5,7 @@ import HRT from "../pages/HRT";
 import Friends from "../pages/Friends";
 import Gallery from "../pages/Gallery";
 import "../App.css";
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react";
 
 export default function LunaRouter() {
   const paths = {
