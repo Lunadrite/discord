@@ -1,4 +1,6 @@
 import Connections from "../components/home/Connections";
+import { OrbitingCircles } from "@/components/magicui/orbiting-circles";
+import { File, Settings, Search } from "lucide-react";
 
 export default function Home() {
   return (
