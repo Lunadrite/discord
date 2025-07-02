@@ -5,6 +5,7 @@ import HRT from "../pages/HRT";
 import Friends from "../pages/Friends";
 import Gallery from "../pages/Gallery";
 import "../App.css";
+import { Analytics } from "@vercel/analytics/next";
 
 export default function LunaRouter() {
   const paths = {
@@ -27,6 +28,7 @@ export default function LunaRouter() {
     <Fragment>
       <Header path={location.pathname} />
       <PageRouter />
+      <Analytics />
     </Fragment>
   );
 }

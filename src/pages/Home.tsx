@@ -1,6 +1,5 @@
 import Connections from "../components/home/Connections";
-import { OrbitingCircles } from "@/components/magicui/orbiting-circles";
-import { File, Settings, Search } from "lucide-react";
+import { Analytics } from "@vercel/analytics/next";
 
 export default function Home() {
   return (

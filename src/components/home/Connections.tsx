@@ -1,8 +1,8 @@
 export default function Connections() {
   return (
-    <div className="mt-10">
-      <div className="flex justify-end items-start" />
-      <ul className="flex gap-[20px] flex-col list-none">
+    <div className="mt-5">
+      <div className="flex items-center justify-center" />
+      <ul className="flex gap-[20px] flex-col list-none w-[600px] ml-[25%]">
         <li>
           <a
             href="https://www.instagram.com/lunalovezyouxx/"
