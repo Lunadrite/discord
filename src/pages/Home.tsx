@@ -1,6 +1,4 @@
 import Connections from "../components/home/Connections";
-import { Analytics } from "@vercel/analytics/next";
-
 export default function Home() {
   return (
     <>
