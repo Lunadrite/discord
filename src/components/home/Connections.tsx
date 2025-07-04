@@ -2,7 +2,7 @@ export default function Connections() {
   return (
     <div className="mt-5 ">
       <div className="" />
-      <ul className="flex gap-[20px] flex-col list-none w-[600px] mx-auto">
+      <ul className="flex gap-[20px] flex-col list-none w-[600px] mx-[auto]">
         {" "}
         {/* mx change for picture later */}
         <li>
