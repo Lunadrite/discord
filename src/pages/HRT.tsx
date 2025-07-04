@@ -1,7 +1,7 @@
 export default function HRT() {
   return (
     <>
-      <div className="flex items-center justify-center border-1 border-pink-200 mt-5 w-[1000px] break-text mx-auto rounded-3xl shadow-md shadow-gray-600">
+      <div className="flex items-center justify-center border-1 border-pink-200 mt-5 w-[1000px] break-text mx-auto rounded-3xl shadow-md shadow-gray-600 ">
         <p className="text-2xl font-bold text-center">
           Many people int he UK ask how i got my HRT, especially with the new
           laws which are used to try hide trans people so i hope this will help
@@ -9,7 +9,7 @@ export default function HRT() {
         </p>
       </div>
       <div className="flex items-center">
-        <h1 className="flex items-center pt-5 text-start text-2xl font-extrabold mx-auto">
+        <h1 className="flex items-center pt-5 text-start text-2xl font-extrabold mx-auto ">
           Buying your prodcuts
         </h1>
       </div>
@@ -29,7 +29,7 @@ export default function HRT() {
             link
           </a>
         </h1>
-        <p className="">
+        <p className="text-center">
           I have had a great expirence with them, Their payment system was easy
           and the shipping only took 3 weeks to get to me!
         </p>
