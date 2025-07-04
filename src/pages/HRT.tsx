@@ -1,7 +1,7 @@
 export default function HRT() {
   return (
     <>
-      <blockquote className="flex items-center justify-center border-1 border-pink-200 mt-5 w-[900px] break-text mx-auto rounded-3xl">
+      <blockquote className="flex items-center justify-center border-1 border-pink-200 mt-5 w-[1000px] break-text mx-auto rounded-3xl shadow-md shadow-gray-600">
         <p className="text-2xl font-bold text-cente">
           Many people int he UK ask how i got my HRT, especially with the new
           laws which are used to try hide trans people so i hope this will help
@@ -9,7 +9,7 @@ export default function HRT() {
         </p>
       </blockquote>
       <div className="flex items-center">
-        <h1 className="flex items-center pt-5 text-start text-2xl font-bold mx-auto">
+        <h1 className="flex items-center pt-5 text-start text-2xl font-extrabold mx-auto">
           Buying your prodcuts
         </h1>
       </div>
@@ -80,7 +80,7 @@ export default function HRT() {
           Blood Tests!
         </h1>
       </div>
-      <div className="flex flex-col items-center border-1 mt-3 w-[500px] mx-auto rounded-2xl">
+      <div className="flex flex-col items-center border-1 mt-3 w-[650px] mx-auto rounded-2xl">
         <h1 className="flex items-center text-center mx-auto font-bold text-blue-200 text-lg">
           Randox
           <a
@@ -100,7 +100,7 @@ export default function HRT() {
       </div>
       <div className="flex items-center">
         <h1 className="flex items-center pt-5 text-start text-2xl font-bold mx-auto">
-          Injecting!
+          How to inject! COMING SOON
         </h1>
       </div>
     </>
