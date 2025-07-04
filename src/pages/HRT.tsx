@@ -18,7 +18,7 @@ export default function HRT() {
           Estrogen!
         </h1>
       </div>
-      <div className="flex flex-col items-center border-1 mt-3 w-[500px] mx-auto rounded-2xl">
+      <div className="flex flex-col items-center border-1 mt-2 w-[500px] mx-auto rounded-2xl">
         <h1 className="flex items-center text-center mx-auto font-bold text-blue-100 text-lg">
           Astrovials
           <a
@@ -29,7 +29,7 @@ export default function HRT() {
             link
           </a>
         </h1>
-        <p className="p-2">
+        <p className="">
           I have had a great expirence with them, Their payment system was easy
           and the shipping only took 3 weeks to get to me!
         </p>
@@ -45,7 +45,7 @@ export default function HRT() {
             link
           </a>
         </h1>
-        <p className="p-2">
+        <p className="">
           I have had a great expirence with them also! Really reliable but they
           are sadly slow it took me 2 months for it to arrive, but its my
           favourite vial yet plus adorable packaging! :(
@@ -67,7 +67,7 @@ export default function HRT() {
             link
           </a>
         </h1>
-        <p className="p-2">
+        <p className="">
           This is the only website i would suggest if your in the uk, Not only
           is it safe and medical grade but its also cheap to help on costs!
           <p className="font-bold text-red-400">
@@ -91,7 +91,7 @@ export default function HRT() {
             link
           </a>
         </h1>
-        <p className="p-2">
+        <p className="">
           I highly suggest using randox! Its where i have been going since
           starting HRT and the nurses are amazing and really are sweethearts,
           The only problem is that its only 2 days every few months, But its

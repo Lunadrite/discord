@@ -11,7 +11,7 @@ export default function HRT() {
       <p className="pt-3 mb-10">
         Welcome to my gallery hope you enjoy my pictures :)
       </p>
-      <div className="flex flex-ro flex-wrap gap-9">
+      <div className="flex justify-center flex-wrap gap-9 mx-auto">
         <div className="flex gap-4 flex-col items-start">
           <div className="w-[300px]">
             <img src={railroad} className="border-1 p-3 rounded-lg"></img>
