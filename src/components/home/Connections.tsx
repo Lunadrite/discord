@@ -1,6 +1,6 @@
 export default function Connections() {
   return (
-    <div className="mt-5 ">
+    <div className="mt-5 p-4 w-[50%] mx-auto h-full  rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 ">
       <div className="" />
       <ul className="flex gap-[20px] flex-col list-none w-[600px] mx-[auto]">
         {" "}

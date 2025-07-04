@@ -9,7 +9,9 @@ export default function Home() {
           learning
         </p>
       </div>
-      <Connections />
+      <div className="">
+        <Connections />
+      </div>
     </main>
   );
 }

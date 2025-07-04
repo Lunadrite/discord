@@ -4,8 +4,8 @@
 @custom-variant dark (&:is(.dark *));
 
 body {
-  background: #1b1b1b;
-  color: white;
+  background: #242220;
+  color: #fefdfd;
 }
 
 @layer base {
@@ -18,7 +18,7 @@ body {
   }
 
   .pictureComment {
-    @apply flex gap-[20px] list-none p-2 bg-[#2C90FE] rounded-md text-start;
+    @apply flex gap-[20px] list-none p-2 bg-[#c65d7b] rounded-md text-start;
   }
 }
 

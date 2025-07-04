@@ -8,7 +8,7 @@ import crossroads from "../assets/gallery/crossroads.jpg";
 export default function HRT() {
   return (
     <>
-      <p className="pt-3 mb-10 mx-auto text-center">
+      <p className="pt-3 mb-6 mx-auto text-center">
         Welcome to my gallery hope you enjoy my pictures :)
       </p>
       <div className="grid 3xl:grid-cols-4 2xl:grid-cols-3 gap-8 lg:grid-cols-2 grid-cols-1 mx-auto ">

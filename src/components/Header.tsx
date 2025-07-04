@@ -2,7 +2,7 @@ import Logo from "../assets/Portfolio-LOGO.jpg";
 
 export default function Header({ path }: { path: string }) {
   return (
-    <header className="bg-[#2c2c2c] h-[73px] text-white flex justify-between items-center px-5 rounded-lg mt-[2vh]">
+    <header className="border-1 border-[#f68989] h-[73px] text-white flex justify-between items-center px-5 rounded-lg mt-[2vh]">
       <div className="Logo-Name font-bold flex gap-1.5 items-center">
         <img src={Logo} width={34} />
         <a href="/">
@@ -23,7 +23,7 @@ export default function Header({ path }: { path: string }) {
         <li className={path === "/friends" ? "underline font-bold " : ""}>
           <a href="/friends">Friends</a>
         </li>
-        <button className="bg-linear-to-b/srgb from-[#b138a7] to-[#87ff83] cursor-pointer duration-200 rounded-lg px-3 py-0.5 hover:bg-linear-to-r/srgb hover:from-[#87ff83] hover:to-[#b138a7]">
+        <button className="bg-linear-to-b/srgb from-[#f6e7d8] to-[#f68989] cursor-pointer duration-200 rounded-lg px-3 py-0.5 hover:bg-linear-to-r/srgb hover:from-[#f68989] hover:to-[#f6e7d8]">
           <a href="/gallery">Gallery</a>
         </button>
       </ul>
