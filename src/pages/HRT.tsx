@@ -1,13 +1,13 @@
 export default function HRT() {
   return (
     <>
-      <blockquote className="flex items-center justify-center border-1 border-pink-200 mt-5 w-[1000px] break-text mx-auto rounded-3xl shadow-md shadow-gray-600">
-        <p className="text-2xl font-bold text-cente">
+      <div className="flex items-center justify-center border-1 border-pink-200 mt-5 w-[1000px] break-text mx-auto rounded-3xl shadow-md shadow-gray-600">
+        <p className="text-2xl font-bold text-center">
           Many people int he UK ask how i got my HRT, especially with the new
           laws which are used to try hide trans people so i hope this will help
           someone who needs it!
         </p>
-      </blockquote>
+      </div>
       <div className="flex items-center">
         <h1 className="flex items-center pt-5 text-start text-2xl font-extrabold mx-auto">
           Buying your prodcuts

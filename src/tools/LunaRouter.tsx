@@ -6,6 +6,7 @@ import Friends from "../pages/Friends";
 import Gallery from "../pages/Gallery";
 import "../App.css";
 import { Analytics } from "@vercel/analytics/react";
+import Footer from "../components/Footer";
 
 export default function LunaRouter() {
   const paths = {
@@ -26,8 +27,13 @@ export default function LunaRouter() {
 
   return (
     <Fragment>
-      <Header path={location.pathname} />
-      <PageRouter />
+      <div className="min-h-screen flex flex-col justify-between xl:px-[15rem] lg:px-[9rem] md:px-[6rem] px-[1rem]">
+        <div className="h-full flex flex-col mb-5">
+          <Header path={location.pathname} />
+          <PageRouter />
+        </div>
+        <Footer />
+      </div>
       <Analytics />
     </Fragment>
   );

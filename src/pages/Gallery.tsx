@@ -8,10 +8,10 @@ import crossroads from "../assets/gallery/crossroads.jpg";
 export default function HRT() {
   return (
     <>
-      <p className="pt-3 mb-10">
+      <p className="pt-3 mb-10 mx-auto text-center">
         Welcome to my gallery hope you enjoy my pictures :)
       </p>
-      <div className="flex justify-center flex-wrap gap-9 mx-auto">
+      <div className="grid 3xl:grid-cols-4 2xl:grid-cols-3 gap-8 lg:grid-cols-2 grid-cols-1 mx-auto ">
         <div className="flex gap-4 flex-col items-start">
           <div className="w-[300px]">
             <img src={railroad} className="border-1 p-3 rounded-lg"></img>

@@ -1,7 +1,7 @@
 import Connections from "../components/home/Connections";
 export default function Home() {
   return (
-    <>
+    <main className="h-fit">
       <p className="text-3xl flex pt-3 font-medium">
         Hai, Welcome to my website!
       </p>
@@ -10,6 +10,6 @@ export default function Home() {
         learning
       </p>
       <Connections />
-    </>
+    </main>
   );
 }
