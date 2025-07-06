@@ -7,6 +7,7 @@ export default function HRT() {
           laws which are used to try hide trans people so i hope this will help
           someone who needs it!
         </p>
+        <p className="text-red-600">[THIS PAGE IS BOUND TO CHANGE]</p>
       </div>
       <div className="flex items-center">
         <h1 className="flex items-center pt-5 text-start text-3xl font-extrabold mx-auto ">
