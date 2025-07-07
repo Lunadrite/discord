@@ -1,3 +1,5 @@
+import ImageofMe from "../assets/home/IMG_6984.jpg";
+
 import Connections from "../components/home/Connections";
 export default function Home() {
   return (
@@ -9,7 +11,14 @@ export default function Home() {
           learning
         </p>
       </div>
-      <div className="">
+      <div className="flex items-center pt-2">
+        <div className="border-2 px-20 py-3 flex rounded-3xl flex-col ">
+          <img src={ImageofMe} className="w-50"></img>
+          <div className="mt-2 p-1 rounded-md text-center font-bold text-2xl underline underline-offset-4 ">
+            Luna
+          </div>
+          <div className="items-center text-center">Creative assistant</div>
+        </div>
         <Connections />
       </div>
     </main>
