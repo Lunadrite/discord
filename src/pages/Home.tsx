@@ -14,7 +14,7 @@ export default function Home() {
         </p>
       </div>
       <div className="flex items-center pt-2">
-        <div className="border-2 px-20 py-3 flex rounded-3xl flex-col ">
+        <div className="border-2 px-20 py-3 flex rounded-3xl flex-col border-[#f68989]">
           <img src={ImageofMe} className="w-50"></img>
           <div className="mt-2 p-1 rounded-md text-center font-bold text-2xl underline underline-offset-4 ">
             Luna
