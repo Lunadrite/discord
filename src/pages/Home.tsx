@@ -1,4 +1,6 @@
 import ImageofMe from "../assets/home/IMG_6984.jpg";
+import Github from "../assets/home/github-mark-white.png";
+import Linkedin from "../assets/home/InBug-White.png";
 
 import Connections from "../components/home/Connections";
 export default function Home() {
@@ -18,8 +20,16 @@ export default function Home() {
             Luna
           </div>
           <div className="items-center text-center">Creative assistant</div>
+          <div className="flex items-center text-center justify-center gap-3 pt-2">
+            <img src={Github} className="w-[25px]"></img>
+            <div className="flex items-center text-center justify-center">
+              <img src={Linkedin} className="w-[25px]"></img>
+            </div>
+          </div>
         </div>
-        <Connections />
+        <div className="flex">
+          <Connections />
+        </div>
       </div>
     </main>
   );
