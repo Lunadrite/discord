@@ -2,18 +2,18 @@ import Logo from "../assets/Portfolio-LOGO.jpg";
 
 export default function Header({ path }: { path: string }) {
   return (
-    <header className="border-1 border-[#f68989] h-[73px] text-white flex justify-between items-center px-5 rounded-lg mt-[2vh]">
+    <header className="border-1 border-[#f68989] py-2 justify-center h-[73px] text-white flex-col md:flex-row flex md:justify-between items-center px-5 rounded-lg mt-[2vh]">
       <div className="Logo-Name font-bold flex gap-1.5 items-center">
         <img src={Logo} width={34} />
         <a href="/">
-          <p className="mb-1 text-base lg:text-2xl md:text-lg">
+          <p className="mb-1  text-base lg:text-2xl md:text-lg">
             Luna's Designs
           </p>
         </a>
       </div>
 
       <div className="flex justify-end items-start" />
-      <ul className="flex gap-[15px] flex-row list-none">
+      <ul className="flex gap-[20px] flex-row list-none">
         <li className={path === "/" ? "underline font-bold " : ""}>
           <a href="/">Links</a>
         </li>

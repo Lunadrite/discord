@@ -1,14 +1,13 @@
 export default function Connections() {
   return (
-    <div className="mt-5 p-4 w-[50%] mx-auto h-full  rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 ">
-      <div className="" />
-      <ul className="flex gap-[20px] flex-col list-none w-[600px] mx-[auto]">
+    <div className="mt-5 md:p-4 w-full rounded-md bg-clip-padding backdrop-filter backdrop-blur-sm bg-opacity-10 lg:w-[] 2xl:w-[600px]">
+      <ul className="flex gap-[20px] flex-col list-none w-full 2xl:w-[600px] mx-[auto]">
         {" "}
         {/* mx change for picture later */}
-        <li>
+        <li className="w-full">
           <a
             href="https://www.instagram.com/lunalovezyouxx/"
-            className="navElements bg-linear-65 from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white"
+            className="w-full navElements bg-linear-65 from-[#f9ce34] via-[#ee2a7b] to-[#6228d7] text-white"
           >
             Instagram
           </a>

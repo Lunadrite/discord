@@ -13,9 +13,9 @@ export default function Home() {
           learning
         </p>
       </div>
-      <div className="flex items-center pt-2">
-        <div className="border-2 px-20 py-3 flex rounded-3xl flex-col border-[#f68989]">
-          <img src={ImageofMe} className="w-50"></img>
+      <div className="flex items-center pt-2 flex-col md:flex-row justify-center ">
+        <div className="border-2 px-20 py-3 flex rounded-3xl flex-col  border-[#f68989] ">
+          <img src={ImageofMe} className="w-50 "></img>
           <div className="mt-2 p-1 rounded-md text-center font-bold text-2xl underline underline-offset-4 ">
             Luna
           </div>
@@ -32,7 +32,7 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <div className="flex">
+        <div className="2xl:px-4 w-full 2xl:w-fit">
           <Connections />
         </div>
       </div>
