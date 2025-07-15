@@ -23,9 +23,11 @@ export default function Header({ path }: { path: string }) {
         <li className={path === "/friends" ? "underline font-bold " : ""}>
           <a href="/friends">Friends</a>
         </li>
-        <button className="bg-linear-to-b/srgb from-[#f6e7d8] to-[#f68989] cursor-pointer duration-200 rounded-lg px-3 py-0.5 hover:bg-linear-to-r/srgb hover:from-[#f68989] hover:to-[#f6e7d8]">
+        <li>
+        <button className={path === "/gallery" ? "underline font-bold " : ""}>
           <a href="/gallery">Gallery</a>
         </button>
+        </li>
       </ul>
     </header>
   );
