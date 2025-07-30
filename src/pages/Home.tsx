@@ -21,13 +21,13 @@ export default function Home() {
           </div>
           <div className="items-center text-center">Creative assistant</div>
           <div className="flex items-center text-center justify-center gap-4 pt-2">
-            <a href="https://github.com/Lunadrite">
+            <a target="_blank" rel="noopener noreferrer" href="https://github.com/Lunadrite">
               <img src={Github} className="w-[24px]"></img>
             </a>
 
             <div className="flex items-center text-center justify-center">
-              <a href="https://www.linkedin.com/in/luna-tattersall-87a908369/">
-                <img src={Linkedin} className="w-[24px]"></img>
+              <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/luna-tattersall-87a908369/">
+                <img src={Linkedin}  className="w-[24px]"></img>
               </a>
             </div>
           </div>

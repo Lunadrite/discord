@@ -40,6 +40,7 @@ export default function HRT() {
           Otokonoko Pharmaceuticals (OTK)
           <a
             target="_blank"
+            
             href="https://otkph.am/"
             className=" font-thin text-xs pl-2 "
           >
