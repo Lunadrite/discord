@@ -7,8 +7,8 @@ export default function HRT() {
           laws which are used to try hide trans people so i hope this will help
           someone who needs it!
         </p>
-        <p className="text-red-600">[THIS PAGE IS BOUND TO CHANGE]</p>
       </div>
+        <p className="font-bold text-red-400 flex flex-wrap text-center mx-auto">[THIS PAGE IS BOUND TO CHANGE]</p>
       <div className="flex items-center">
         <h1 className="flex items-center pt-5 text-start text-3xl font-extrabold mx-auto ">
           Buying your prodcuts
@@ -47,9 +47,7 @@ export default function HRT() {
           </a>
         </h1>
         <p className="">
-          I have had a great expirence with them also! Really reliable but they
-          are sadly slow it took me 2 months for it to arrive, but its my
-          favourite vial yet plus adorable packaging! :(
+          I have had a great expirence with them also! Really reliable but they are sadly slow it took me 2 months for it to arrive, but its my favourite vial yet plus adorable packaging! :(
         </p>
       </div>
       <div className="flex items-center">
@@ -68,10 +66,10 @@ export default function HRT() {
             link
           </a>
         </h1>
-        <p className="">
+        <p className="text-wrap flex flex-wrap text-center">
           This is the only website i would suggest if your in the uk, Not only
           is it safe and medical grade but its also cheap to help on costs!
-          <p className="font-bold text-red-400">
+          <p className="font-bold text-red-400 flex flex-wrap text-center mx-auto">
             Please be safe if your doing DIY and dont reuse needles
           </p>
         </p>
