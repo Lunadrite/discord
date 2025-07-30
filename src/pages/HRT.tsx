@@ -30,7 +30,7 @@ export default function HRT() {
             link
           </a>
         </h1>
-        <p className="text-center">
+        <p className="text-wrap flex flex-wrap text-center">
           I have had a great expirence with them, Their payment system was easy
           and the shipping only took 3 weeks to get to me!
         </p>
@@ -46,7 +46,7 @@ export default function HRT() {
             link
           </a>
         </h1>
-        <p className="">
+        <p className="text-wrap flex flex-wrap text-center">
           I have had a great expirence with them also! Really reliable but they are sadly slow it took me 2 months for it to arrive, but its my favourite vial yet plus adorable packaging! :(
         </p>
       </div>
@@ -90,7 +90,7 @@ export default function HRT() {
             link
           </a>
         </h1>
-        <p className="">
+        <p className="text-wrap flex flex-wrap text-center">
           I highly suggest using randox! Its where i have been going since
           starting HRT and the nurses are amazing and really are sweethearts,
           The only problem is that its only 2 days every few months, But its
