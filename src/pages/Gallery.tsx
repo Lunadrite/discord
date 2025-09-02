@@ -55,8 +55,9 @@ export default function HRT() {
           <div className="w-[300px]">
             <img src={castle} className="border-1 p-4 rounded-lg"></img>
           </div>
-          <div className="pictureComment max-w-[300px] break-words">🖤🛣</div>
+          <div className="pictureComment max-w-[300px] break-words">🏰🐦‍⬛</div>
         </div>
+        
       </div>
     </>
   );
