@@ -4,6 +4,8 @@ import railstation from "../assets/gallery/railstation.jpg";
 import time from "../assets/gallery/time.jpg";
 import tunnel from "../assets/gallery/tunnel.jpg";
 import crossroads from "../assets/gallery/crossroads.jpg";
+import castle from "../assets/gallery/castle.jpg";
+
 
 export default function HRT() {
   return (
@@ -46,6 +48,12 @@ export default function HRT() {
         <div className="flex gap-4 flex-col items-start">
           <div className="w-[300px]">
             <img src={crossroads} className="border-1 p-4 rounded-lg"></img>
+          </div>
+          <div className="pictureComment max-w-[300px] break-words">🖤🛣</div>
+        </div>
+        <div className="flex gap-4 flex-col items-start">
+          <div className="w-[300px]">
+            <img src={castle} className="border-1 p-4 rounded-lg"></img>
           </div>
           <div className="pictureComment max-w-[300px] break-words">🖤🛣</div>
         </div>
