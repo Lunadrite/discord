@@ -5,6 +5,9 @@ import eyes from "../assets/cats/eyesjpg.jpg";
 import nose from "../assets/cats/nose.jpg";
 import Piss from "../assets/cats/piss.jpg";
 import Wah from "../assets/cats/wah.jpg";
+import Blegh from "../assets/cats/BleghCat.png";
+
+
 
 export default function HRT() {
   return (
@@ -57,6 +60,12 @@ export default function HRT() {
             <img src={Wah} className="border-1 p-3 rounded-lg"></img>
           </div>
           <div className="pictureComment max-w-[300px] break-words">🖤🛣</div>
+        </div>
+        <div className="flex gap-4 flex-col items-start">
+          <div className="w-[300px]">
+            <img src={Blegh} className="border-1 p-3 rounded-lg"></img>
+          </div>
+          <div className="pictureComment max-w-[300px] break-words">👅🐈‍⬛</div>
         </div>
       </div>
     </>
