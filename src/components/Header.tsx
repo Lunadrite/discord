@@ -28,6 +28,11 @@ export default function Header({ path }: { path: string }) {
           <a href="/gallery">Gallery</a>
         </button>
         </li>
+                <li>
+        <button className={path === "/aboutme" ? "underline font-bold " : ""}>
+          <a href="/aboutme">Aboutme</a>
+        </button>
+        </li>
       </ul>
     </header>
   );
