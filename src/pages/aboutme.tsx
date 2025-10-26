@@ -1,12 +1,4 @@
 import eyelashes from "../assets/cats/Eyelashes.jpg";
-import bingus from "../assets/cats/bingus.jpg";
-import bleh from "../assets/cats/bleh.jpg";
-import eyes from "../assets/cats/eyesjpg.jpg";
-import nose from "../assets/cats/nose.jpg";
-import Piss from "../assets/cats/piss.jpg";
-import Wah from "../assets/cats/wah.jpg";
-import Blegh from "../assets/cats/BleghCat.png";
-
 
 
 export default function HRT() {
@@ -17,11 +9,14 @@ export default function HRT() {
       </p>
       <div className="grid 3xl:grid-cols-4 2xl:grid-cols-3 gap-8 lg:grid-cols-2 grid-cols-1 mx-auto ">
         <div className="flex gap-4 flex-col items-start">
-          <div className="w-[300px]">
-            <img src={eyelashes} className="border-1 p-3 rounded-lg"></img>
+          <div className="w-[300px] border-1 p-3 rounded-lg">
+            <p>
+              Test 1,
+              test2,
+            </p>
           </div>
           <div className="pictureComment max-w-[300px] break-words">
-            Look at does eyelashes
+            Here are some languges im learning and the level im at!
           </div>
       </div>
       </div>
