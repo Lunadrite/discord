@@ -13,7 +13,7 @@ export default function HRT() {
   return (
     <>
       <p className="pt-3 mb-10 mx-auto text-center">
-        WOAH WELCOME TO MY SECRET PAGE KITTIES FOR YOU KITTIES EVERYWHERE
+        Hey welcome to my about me page learn some silly things im doing!
       </p>
       <div className="grid 3xl:grid-cols-4 2xl:grid-cols-3 gap-8 lg:grid-cols-2 grid-cols-1 mx-auto ">
         <div className="flex gap-4 flex-col items-start">
@@ -23,51 +23,9 @@ export default function HRT() {
           <div className="pictureComment max-w-[300px] break-words">
             Look at does eyelashes
           </div>
-        </div>
-        <div className="flex gap-4 flex-col items-start">
-          <div className="w-[300px]">
-            <img src={bleh} className="border-1 p-3 rounded-lg"></img>
-          </div>
-          <div className="pictureComment max-w-[300px] break-words">🏴🖤</div>
-        </div>
-        <div className="flex gap-4 flex-col items-start">
-          <div className="w-[300px]">
-            <img src={bingus} className="border-1 p-3 rounded-lg"></img>
-          </div>
-          <div className="pictureComment max-w-[300px] break-words">🎩🕰</div>
-        </div>
-
-        <div className="flex gap-4 flex-col items-start">
-          <div className="w-[300px]">
-            <img src={eyes} className="border-1 p-3 rounded-lg"></img>
-          </div>
-          <div className="pictureComment max-w-[300px] break-words">⬛◼◾▪</div>
-        </div>
-        <div className="flex gap-4 flex-col items-start">
-          <div className="w-[300px]">
-            <img src={nose} className="border-1 p-3 rounded-lg"></img>
-          </div>
-          <div className="pictureComment max-w-[300px] break-words">🏴🖤</div>
-        </div>
-        <div className="flex gap-4 flex-col items-start">
-          <div className="w-[300px]">
-            <img src={Piss} className="border-1 p-3 rounded-lg"></img>
-          </div>
-          <div className="pictureComment max-w-[300px] break-words">🖤🛣</div>
-        </div>
-        <div className="flex gap-4 flex-col items-start">
-          <div className="w-[300px]">
-            <img src={Wah} className="border-1 p-3 rounded-lg"></img>
-          </div>
-          <div className="pictureComment max-w-[300px] break-words">🖤🛣</div>
-        </div>
-        <div className="flex gap-4 flex-col items-start">
-          <div className="w-[300px]">
-            <img src={Blegh} className="border-1 p-3 rounded-lg"></img>
-          </div>
-          <div className="pictureComment max-w-[300px] break-words">👅🐈‍⬛</div>
-        </div>
+      </div>
       </div>
     </>
+
   );
 }

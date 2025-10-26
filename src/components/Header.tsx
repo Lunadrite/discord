@@ -14,6 +14,11 @@ export default function Header({ path }: { path: string }) {
 
       <div className="flex justify-end items-start" />
       <ul className="flex gap-[20px] flex-row list-none">
+                <li>
+        <button className={path === "/aboutme" ? "underline font-bold " : ""}>
+          <a href="/aboutme">About me</a>
+        </button>
+        </li>
         <li className={path === "/" ? "underline font-bold " : ""}>
           <a href="/">Links</a>
         </li>
@@ -26,11 +31,6 @@ export default function Header({ path }: { path: string }) {
         <li>
         <button className={path === "/gallery" ? "underline font-bold " : ""}>
           <a href="/gallery">Gallery</a>
-        </button>
-        </li>
-                <li>
-        <button className={path === "/aboutme" ? "underline font-bold " : ""}>
-          <a href="/aboutme">Aboutme</a>
         </button>
         </li>
       </ul>
