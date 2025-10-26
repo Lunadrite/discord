@@ -1,6 +1,3 @@
-import eyelashes from "../assets/cats/Eyelashes.jpg";
-
-
 export default function HRT() {
   return (
     <>
@@ -11,8 +8,7 @@ export default function HRT() {
         <div className="flex gap-4 flex-col items-start">
           <div className="w-[300px] border-1 p-3 rounded-lg">
             <p>
-              Test 1,
-              test2,
+              
             </p>
           </div>
           <div className="pictureComment max-w-[300px] break-words">
