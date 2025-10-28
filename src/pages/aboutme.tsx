@@ -8,7 +8,7 @@ export default function HRT() {
         <div className="flex gap-4 flex-col items-start">
           <div className="w-[600px] border-1 p-3 rounded-lg ">
             <p className="pb-1">
-              Japanese | Im learning all the 46 hiragana hope to be done in 1-2 weeks!
+              Japanese | See my progress here: <a className="font-bold underline" href="/Japanese">Japanese</a>
             </p>
             <p className="pb-1">
               French | I learned the basics enough to sound like a baby haha will learn!

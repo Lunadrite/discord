@@ -9,6 +9,7 @@ import { Analytics } from "@vercel/analytics/react";
 import Footer from "../components/Footer";
 import Kitties from "../pages/Kitties";
 import Aboutme from "../pages/aboutme";
+import Japanese from "../pages/Japanese"
 
 export default function LunaRouter() {
   const paths = {
@@ -18,6 +19,7 @@ export default function LunaRouter() {
     "/gallery": <Gallery />,
     "/kitties": <Kitties />,
     "/aboutme": <Aboutme />,
+    "/Japanese": <Japanese />,
   };
 
   const PageRouter = () => {
