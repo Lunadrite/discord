@@ -29,8 +29,9 @@ export default function HRT() {
         <p className="text-wrap flex flex-wrap text-center">
           Learning all the 46 hiragana (with the sounds took a little bit of time!) Unlike the video i didnt get it done in an hour
           i wanted to take my time and get the fundimentals built well so i took time making flashcards on paper and testing myself! Doing this i was able to do it in around a day, then the next morning i woke up and was able to pronounce and read all the
-          Hiragana kanji, Im so glad i learned it tho! Im sitting here and i can actually pronouce all of the hiragana in songs i like! So im going to move onto reading childrens books in all Hiragan and learn some basic vocab!
+          Hiragana kanji, Im so glad i learned it tho! Im sitting here and i can actually pronouce all of the hiragana in songs i like! So im going to move onto reading childrens books in all Hiragan and learn some basic vocab!　 
         </p>
+        <a className="font-bold underline underline-offset-3">ありがと、またね</a>
       </div>
     </>
   );
