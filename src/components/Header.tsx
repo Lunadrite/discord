@@ -14,13 +14,13 @@ export default function Header({ path }: { path: string }) {
 
       <div className="flex justify-end items-start" />
       <ul className="flex gap-[20px] flex-row list-none">
-                <li>
+        <li className={path === "/" ? "underline font-bold " : ""}>
+          <a href="/">Links</a>
+        </li>
+        <li>
         <button className={path === "/aboutme" ? "underline font-bold " : ""}>
           <a href="/aboutme">About me</a>
         </button>
-        </li>
-        <li className={path === "/" ? "underline font-bold " : ""}>
-          <a href="/">Links</a>
         </li>
         <li className={path === "/hrt" ? "underline font-bold " : ""}>
           <a href="/hrt">HRT</a>
