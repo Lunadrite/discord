@@ -2,13 +2,11 @@ import Logo from "../assets/Portfolio-LOGO.jpg";
 
 export default function Header({ path }: { path: string }) {
   return (
-    <header className="border-1 border-[#f68989] py-2 justify-center h-[73px] text-white flex-col md:flex-row flex md:justify-between items-center px-5 rounded-lg mt-[2vh]">
+    <header className="border border-[#5e5bff] py-2 justify-center h-[73px] text-[#eaeaea] flex-col md:flex-row flex md:justify-between items-center px-5 rounded-lg mt-[2vh] bg-gradient-to-b from-transparent to-[#0b050b]">
       <div className="Logo-Name font-bold flex gap-1.5 items-center">
-        <img src={Logo} width={34} />
+        <img src={Logo} width={34} alt="Luna Logo" />
         <a href="/">
-          <p className="mb-1  text-base lg:text-2xl md:text-lg">
-            Luna's Designs
-          </p>
+          <p className="mb-1 text-base lg:text-2xl md:text-lg">Luna's Designs</p>
         </a>
       </div>
 
@@ -18,9 +16,9 @@ export default function Header({ path }: { path: string }) {
           <a href="/">Links</a>
         </li>
         <li>
-        <button className={path === "/aboutme" ? "underline font-bold " : ""}>
-          <a href="/aboutme">About me</a>
-        </button>
+          <button className={path === "/aboutme" ? "underline font-bold " : ""}>
+            <a href="/aboutme">About me</a>
+          </button>
         </li>
         <li className={path === "/hrt" ? "underline font-bold " : ""}>
           <a href="/hrt">HRT</a>
@@ -29,9 +27,9 @@ export default function Header({ path }: { path: string }) {
           <a href="/friends">Friends</a>
         </li>
         <li>
-        <button className={path === "/gallery" ? "underline font-bold " : ""}>
-          <a href="/gallery">Gallery</a>
-        </button>
+          <button className={path === "/gallery" ? "underline font-bold " : ""}>
+            <a href="/gallery">Gallery</a>
+          </button>
         </li>
       </ul>
     </header>
