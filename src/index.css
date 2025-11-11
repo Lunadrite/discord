@@ -4,13 +4,16 @@
 @custom-variant dark (&:is(.dark *));
 
 body {
-  background: #242220;
+  background: #000000 url('data:image/svg+xml,<svg width="100" height="100" xmlns="http://www.w3.org/2000/svg"><rect width="100" height="100" fill="%23000"/><circle cx="50" cy="50" r="2" fill="%23ff69b4" opacity="0.3"/></svg>');
   color: #fefdfd;
+  min-height: 100vh;
+  font-family: 'Comic Sans MS', 'Trebuchet MS', cursive;
 }
 
 @layer base {
+  /* Simplified navElements - styles are now applied inline in components for better control */
   .navElements {
-    @apply bg-linear-to-b/srgb cursor-pointer duration-200 rounded-lg px-4 py-0.5 hover:bg-linear-to-r/srgb hover:from-[#87ff83] hover:to-[#b138a7] h-14 text-2xl flex justify-center items-center text-black font-semibold;
+    /* Removed conflicting styles - all styling now done inline in the component */
   }
 
   .pictureFrame {
