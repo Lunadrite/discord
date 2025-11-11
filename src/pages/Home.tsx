@@ -39,11 +39,11 @@ export default function Home() {
           </div>
 
           <div className="text-center text-[#9c0b3b] font-semibold text-sm mb-1 animate-pulse">
-            “Coding by candlelight…”
+            “Learning by candlelight…”
           </div>
 
           <div className="text-center text-[#c0b283] text-xs mb-3">
-            ✧ Eternal Night Online ✧
+            ✧ Online ✧
           </div>
 
           <div className="flex items-center text-center justify-center gap-6 pt-2">
@@ -80,8 +80,8 @@ export default function Home() {
             </div>
             <div className="text-[10px] text-[#eaeaea] space-y-0.5">
               <div>♥ Mood: Haunted</div>
-              <div>♪ Listening to: Type O Negative</div>
-              <div>★ Status: Dwelling in darkness</div>
+              <div>♪ Listening to: Violent Vira</div>
+              <div>★ Status: Craving Diet Coke</div>
             </div>
           </div>
         </div>
