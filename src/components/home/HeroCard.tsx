@@ -1,4 +1,4 @@
-import ImageofMe from "../../assets/home/IMG_0742.jpg";
+import ImageofMe from "../../assets/home/PridePic.png";
 import Github from "../../assets/home/github-mark-white.png";
 import Linkedin from "../../assets/home/InBug-White.png";
 
