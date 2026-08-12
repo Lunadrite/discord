@@ -158,7 +158,7 @@ function Blogpost({caption, src, href}:BlogpostProps   )
         </div>
         <div className="projectComment  w-full 2xl:min-w-1xl break-words text-center">
           {caption}
-        <p className="bg-red-200 rounded-4xl">Click Thumbnail to read</p>
+        <p className="bg-red-200 rounded-4xl text-md">Click Thumbnail to read</p>
         </div>
       </div>
     </div>

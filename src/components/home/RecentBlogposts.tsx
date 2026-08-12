@@ -5,8 +5,8 @@ export default function RecentBlogposts() {
     return(
         <>
     <div className="pt-4">
-        <div className="border-3 p-4 flex rounded-3xl flex-col border-[#880808] text-center text-s">
-            <h1>Check out my blogposts!</h1>
+        <div className="border-3 p-4 flex rounded-3xl flex-col border-[#880808] text-center">
+            <h1 >Check out my blogposts!</h1>
             <div className="">
                     {Blogs.map((blog) => (
                         <Blog.Blogpost

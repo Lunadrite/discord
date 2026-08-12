@@ -1,5 +1,5 @@
 import pointersexplained from "../../assets/Blogposts/PointersExplained.png";
-
+import BaseSystems from "../../assets/Blogposts/A Beginner’s Guide to Base Systems.png"
 interface Blog {
     title: string;
     image: string;
@@ -12,5 +12,10 @@ export const Blogs: Blog[] = [
     image: pointersexplained,
     href: "./pointerblogpost"
   },
+  {
+    title: "A Beginner’s Guide to Base Systems",
+    image: BaseSystems,
+    href: "./basesystemsblogpost"
+  }
 
 ];
