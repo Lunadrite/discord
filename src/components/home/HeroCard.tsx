@@ -9,7 +9,7 @@ export default function HeroCard() {
         <>
     <div className="pt-4">
         <div className=" flex border-3 py-4  rounded-3xl flex-col  border-[#880808] items-center text-center justify-center ">
-        <img src={ImageofMe} className="w-70 rounded-xl"></img>
+        <img src={ImageofMe} className="w-70 rounded-3xl p-3"></img>
         <div className="rounded-md text-center font-bold text-2xl underline underline-offset-4 ">
             Luna
         </div>
