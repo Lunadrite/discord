@@ -7,6 +7,7 @@ import william from "../assets/Blogposts/BaseSystems/William_Sellers_small.png"
 import hexmeme from "../assets/Blogposts/BaseSystems/hexmeme.png"
 import basesystemrep from "../assets/Blogposts/BaseSystems/Base-10-16-Showcase.png"
 import hexbreakdown from "../assets/Blogposts/BaseSystems/Hex-Breakdown.png"
+import catWave from "../assets/Blogposts/CatWaveBYE.gif"
 
 export default function Blogposts() {
     return(
@@ -52,7 +53,8 @@ export default function Blogposts() {
             <Blog.Text>You should have the idea of what the basic Base addresses are now! </Blog.Text>
             <Blog.Text>Remember that learning a new base system can be hard, so don't worry about not getting it straight away! Even if you come back to it and know it once, you need to learn it.</Blog.Text>
             <Blog.Text>Thank you for reading this article, and I hope it helped you learn more about Base Addresses if you where confused! </Blog.Text>
-        
+            <Blog.Text>Have a good day!</Blog.Text>
+            <Blog.Image src={catWave}/>
         
         </div>
   );
