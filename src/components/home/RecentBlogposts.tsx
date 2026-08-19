@@ -1,4 +1,3 @@
-import { Slice } from "lucide-react"
 import { Blog } from "../../components/blog/Blog"
 import {Blogs} from "../../components/blog/Blogposts"
 
