@@ -99,9 +99,9 @@ function ThumbnailImage({ src }: ImageProps) {
 
 function List({ items }: ListProps) {
   return (
-    <ul className="text-gray-300 pb-10">
+    <ul className="text-gray-300 pb-10 ml-5 ">
       {items.map((item) => (
-        <li className="pb-1" key={item}>{item}</li>
+        <li className="pb-2" key={item}>{item}</li>
       ))}
     </ul>
   )

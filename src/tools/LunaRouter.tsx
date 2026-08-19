@@ -13,6 +13,7 @@ import ProjectPage from "../pages/Projects"
 import Blogposts from "../pages/Blogposts"
 import Pointerblogpost from "../pages/PointerBlogpost"
 import BaseSystemBlogpost from "../pages/BaseSystemsBlogpost"
+import GenericsBlogpost from "../pages/genericsblogpost"
 
 //Blogposts
 
@@ -27,7 +28,8 @@ export default function LunaRouter() {
     "/projects": <ProjectPage />,
     "/blogposts":<Blogposts />,
     "/pointerblogpost": <Pointerblogpost/>,
-    "/basesystemsblogpost": <BaseSystemBlogpost/>
+    "/basesystemsblogpost": <BaseSystemBlogpost/>,
+    "/genericsblogpost" : <GenericsBlogpost/>
   };
 
   const PageRouter = () => {

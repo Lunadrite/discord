@@ -9,7 +9,7 @@ export default function Blogposts() {
     </p>
 
     <div className="flex justify-center">
-    <div className="grid 3xl:grid-cols-2 2xl:grid-cols-2 gap-x-70 lg:grid-cols-1 grid-cols-1 content-center w-[80%]">
+    <div className="grid 3xl:grid-cols-3 gap-x-30 lg:grid-cols-2 grid-cols-1 content-center ">
         {Blogs.map((blog) => (
         <Blog.Blogpost
           caption={blog.title}
