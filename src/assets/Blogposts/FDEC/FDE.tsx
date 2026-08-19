@@ -20,8 +20,6 @@ const SvgIcon = () => (
           transform="matrix(-.0485 .18181 -.06118 -.03121 359.293 -373.336)"
         >
           <div
-            xmlns="http://www.w3.org/1999/xhtml"
-            opacity="1"
             style={{
               background:
                 "conic-gradient(from 90deg,#222 0deg,#1c1c1c 32.8846deg,#232323 216.346deg,#232323 359.964deg,#222 360deg)",
