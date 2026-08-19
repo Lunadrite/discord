@@ -12,8 +12,9 @@ import catWave from "../assets/Blogposts/CatWaveBYE.gif"
 export default function Blogposts() {
     return(
         <div className="mx-[10%]">
-            <br></br>
             <Blog.Heading>A Beginner’s Guide to Base Systems</Blog.Heading>
+            <br></br>
+
             <Blog.SubHeading>In this article, we will learn about Base systems and the most common ones in programming!</Blog.SubHeading>
             <Blog.Image src={silly}/>
             <Blog.SubHeading>So, what are Base Systems?</Blog.SubHeading>
