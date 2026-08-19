@@ -1,3 +1,4 @@
+import { Slice } from "lucide-react"
 import { Blog } from "../../components/blog/Blog"
 import {Blogs} from "../../components/blog/Blogposts"
 
@@ -8,7 +9,7 @@ export default function RecentBlogposts() {
         <div className="border-3 p-4 flex rounded-3xl flex-col border-[#880808] text-center">
             <h1 >Check out my blogposts!</h1>
             <div className="">
-                    {Blogs.map((blog) => (
+                    {Blogs.slice(0,2).map((blog) => (
                         <Blog.Blogpost
                         caption={blog.title}
                         src={blog.image}
