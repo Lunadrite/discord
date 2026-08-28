@@ -20,7 +20,7 @@ export default function HeroCard() {
             </a>
 
             <div className="flex items-center text-center justify-center">
-            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/luna-tattersall-87a908369/">
+            <a target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/jamie-luna-tattersall/">
                 <img src={Linkedin}  className="w-[24px]"></img>
             </a>
             </div>
