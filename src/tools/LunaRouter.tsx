@@ -11,10 +11,10 @@ import Kitties from "../pages/Kitties";
 import Aboutme from "../pages/Aboutme";
 import ProjectPage from "../pages/Projects"
 import Blogposts from "../pages/Blogposts"
-import Pointerblogpost from "../pages/PointerBlogpost"
-import BaseSystemBlogpost from "../pages/BaseSystemsBlogpost"
-import GenericsBlogpost from "../pages/genericsblogpost"
-import Fdecblogpost from "../pages/fdecblogpost"
+import Pointerblogpost from "../pages/Blogpost/PointerBlogpost"
+import BaseSystemBlogpost from "../pages/Blogpost/BaseSystemsBlogpost"
+import GenericsBlogpost from "../pages/Blogpost/genericsblogpost"
+import Fdecblogpost from "../pages/Blogpost/fdecblogpost"
 
 //Blogposts
 

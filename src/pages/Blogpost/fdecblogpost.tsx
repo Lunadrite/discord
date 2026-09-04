@@ -1,7 +1,7 @@
-import { Blog } from "../components/blog/Blog"
-import thumbnail from "../assets/Blogposts/FDEC/FDEChumbnail.png"
-import FDECoverview from "../assets/Blogposts/FDEC/FDE"
-import catbye from "../assets/Blogposts/CatWaveBYE.gif"
+import { Blog } from "../../components/blog/Blog"
+import thumbnail from "../../assets/Blogposts/FDEC/FDEChumbnail.png"
+import FDECoverview from "../../assets/Blogposts/FDEC/FDE"
+import catbye from "../../assets/Blogposts/CatWaveBYE.gif"
 export default function Blogpost(){
     return(
         <div className="mx-[10%]">

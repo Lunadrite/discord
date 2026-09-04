@@ -1,13 +1,13 @@
-import pointersexplained from "../assets/Blogposts/PointersExplained.png";
-import pointer from "../assets/Blogposts/pointer.jpg"
-import Pageicon from "../components/icons/Blogpost/PointerExampleUI.tsx"
-import { Blog } from "../components/blog/Blog.tsx"
-import pointershortcut from "../assets/Blogposts/pointershortcut.png"
-import pointerGameMeme from "../assets/Blogposts/GamePointerMeme.png"
-import foomemory from "../assets/Blogposts/foomemory.png"
-import foomemoryaddress from "../assets/Blogposts/foomemoryaddresspointer.png"
-import voidpointer from "../assets/Blogposts/void-pointer.png"
-import smartpointers from "../assets/Blogposts/smartpointers.webp"
+import pointersexplained from "../../assets/Blogposts/PointersExplained.png";
+import pointer from "../../assets/Blogposts/pointer.jpg"
+import Pageicon from "../../components/icons/Blogpost/PointerExampleUI.tsx"
+import { Blog } from "../../components/blog/Blog.tsx"
+import pointershortcut from "../../assets/Blogposts/pointershortcut.png"
+import pointerGameMeme from "../../assets/Blogposts/GamePointerMeme.png"
+import foomemory from "../../assets/Blogposts/foomemory.png"
+import foomemoryaddress from "../../assets/Blogposts/foomemoryaddresspointer.png"
+import voidpointer from "../../assets/Blogposts/void-pointer.png"
+import smartpointers from "../../assets/Blogposts/smartpointers.webp"
 
 export default function Blogposts() {
   return (

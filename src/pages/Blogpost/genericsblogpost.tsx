@@ -1,6 +1,6 @@
-import { Blog } from "../components/blog/Blog"
-import thumbnail from "../assets/Blogposts/Generics/An intro to generics in c++.png"
-import catbye from "../assets/Blogposts/CatWaveBYE.gif"
+import { Blog } from "../../components/blog/Blog"
+import thumbnail from "../../assets/Blogposts/Generics/An intro to generics in c++.png"
+import catbye from "../../assets/Blogposts/CatWaveBYE.gif"
 
 export default function Blogposts() {
   return (

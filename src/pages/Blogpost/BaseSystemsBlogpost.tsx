@@ -1,13 +1,13 @@
-import { Blog } from "../components/blog/Blog.tsx"
-import silly from "../assets/Blogposts/BaseSystems/silly.jpg"
-import BinarMeme from "../assets/Blogposts/BaseSystems/BinaryMEME.jpg"
-import binarbreakdown from "../assets/Blogposts/BaseSystems/BinaryBreakdown.png"
-import binaryshowcase from  "../assets/Blogposts/BaseSystems/Binary-Showcase.png"
-import william from "../assets/Blogposts/BaseSystems/William_Sellers_small.png"
-import hexmeme from "../assets/Blogposts/BaseSystems/hexmeme.png"
-import basesystemrep from "../assets/Blogposts/BaseSystems/Base-10-16-Showcase.png"
-import hexbreakdown from "../assets/Blogposts/BaseSystems/Hex-Breakdown.png"
-import catWave from "../assets/Blogposts/CatWaveBYE.gif"
+import { Blog } from "../../components/blog/Blog.tsx"
+import silly from "../../assets/Blogposts/BaseSystems/silly.jpg"
+import BinarMeme from "../../assets/Blogposts/BaseSystems/BinaryMEME.jpg"
+import binarbreakdown from "../../assets/Blogposts/BaseSystems/BinaryBreakdown.png"
+import binaryshowcase from  "../../assets/Blogposts/BaseSystems/Binary-Showcase.png"
+import william from "../../assets/Blogposts/BaseSystems/William_Sellers_small.png"
+import hexmeme from "../../assets/Blogposts/BaseSystems/hexmeme.png"
+import basesystemrep from "../../assets/Blogposts/BaseSystems/Base-10-16-Showcase.png"
+import hexbreakdown from "../../assets/Blogposts/BaseSystems/Hex-Breakdown.png"
+import catWave from "../../assets/Blogposts/CatWaveBYE.gif"
 
 export default function Blogposts() {
     return(
