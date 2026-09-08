@@ -109,7 +109,7 @@ function List({ items }: ListProps) {
 
 function Callout({ children, caption }: CalloutProps) {
     return(    
-    <div className=" rounded-lg border bg-[#5f5f5f] border-black p-4 py-4.5 my-3 flex flex-wrap w-[auto]">
+    <div className=" rounded-lg border bg-[#3f3f3f] border-[#6c6c6c] pr-4 py-4.5 my-3 flex flex-wrap w-[auto]">
       <p className="pl-4 text-white font-md">  
       <Blog.ImportantInfo textsize="text-lg">!</Blog.ImportantInfo>{children}
       </p>
