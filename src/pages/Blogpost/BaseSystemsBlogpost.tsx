@@ -32,6 +32,7 @@ export default function Blogposts() {
             <Blog.Callout>Bits = “Binary digit”</Blog.Callout>
             <Blog.Text>You might be wondering why computers don’t just use Decimal like we do. Like we said before, Binary is only ON and OFF. Well, well instead of 2 processes, it would need to do 10 process checks, which would take longer and would be harder on our hardware.</Blog.Text>
             <Blog.Text>Just like everything in our world can be broken down into matter and atoms, the online world can be broken down into only Ones and Zeros!</Blog.Text>
+            <br></br>
             <Blog.SubHeading>So, how do we calculate and add with them?</Blog.SubHeading>
             <Blog.Image width="30%" src={binaryshowcase}/>
             <Blog.Text>This looks nice to computers, and they can process this a lot faster, BUT it’s hard for humans to read and process.</Blog.Text>

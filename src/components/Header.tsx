@@ -12,8 +12,8 @@ export default function Header({ path }: { path: string }) {
         </a>
       </div>
 
-      <div className="flex justify-end items-start" />
-      <ul className="flex gap-[20px] flex-row list-none">
+      <div className="flex justify-end items-start " />
+      <ul className="flex gap-[20px] text-md flex-row list-none sm:text-[]">
         <li className={path === "/" ? "underline font-bold " : ""}>
           <a href="/">Links</a>
         </li>

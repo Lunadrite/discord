@@ -76,9 +76,9 @@ function Text({ children }: ChildrenProps) {
 
 function ImportantInfo({ children, textsize }: ImportantInfo) {
     return(    
-      <span className={`border ${textsize} bg-red-950 text-red-400 rounded-2xl px-2 mx-1`}>
+      <div className={`border ${textsize} bg-red-950 text-red-400 rounded-2xl px-2 mx-1`}>
         {children}
-      </span>
+      </div>
     )
 }
 
