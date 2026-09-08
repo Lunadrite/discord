@@ -113,7 +113,7 @@ function Callout({ children, caption }: CalloutProps) {
       <p className="pl-4 text-white font-md">  
       <Blog.ImportantInfo textsize="text-lg">!</Blog.ImportantInfo>{children}
       </p>
-      <p className="font-thin text-sm">
+      <p className="font-thin text-sm pl-3">
         {caption}
       </p>
     </div>
